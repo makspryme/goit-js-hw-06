@@ -18,7 +18,6 @@ function createBoxes() {
     newDivEl.style.height = `${heightEl}px`;
     newDivEl.style.backgroundColor = getRandomHexColor();
     refs.generalBoxEl.appendChild(newDivEl);
-
     widthEl += 10;
     heightEl += 10;
   }
